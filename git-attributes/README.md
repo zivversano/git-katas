@@ -40,7 +40,7 @@ are for GNU/Linux platforms and Mac.
 
 5. Git is mostly suitable for text files, but it can also handle binary files and you can set programs to show the diff.
    In this example, we are going to use the command line tool `exiftool` to show and compare meta-data for iamges. You will need to have this tool installed for the example to work. (There is also a similar tool called just `exif` which would also work, but only for `jpg` files). If you don't have exiftool already it is usually quite easy to install with your favorite package manager e.g. `brew install exiftool` or `apt install exiftool`
-
+*.txt      text=auto eol=lf working-tree-encoding=UTF-8
    Once we have exiftool installed, we will need to configure a new "diff driver" in the git config that uses exiftool to "convert" a binary file to a text representation that can be diff'ed.
 
    Add the following to your global ~/.gitconfig or to the local .git/config file.
