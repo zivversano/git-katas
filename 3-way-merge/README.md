@@ -17,7 +17,7 @@ You again live in your own branch, this time we will be doing a bit of juggling 
 7. Add the README.md file to staging area and make the commit
 8. What is the output of `git log --oneline --graph --all`?
 9. Diff the branches
-10. Merge the greeting branch into master
+10. git branch
 11. What is the output of `git log --oneline --graph --all` now? Observe the extra merge commit created with the message "Merge branch 'greeting'".
 
 ## Useful commands
